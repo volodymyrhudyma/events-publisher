@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormInput component should render correctly 1`] = `
+<FormControl
+  label="Label"
+  required={false}
+>
+  <Input
+    onChange={[MockFunction]}
+    placeholder="Placeholder"
+    type="text"
+    value=""
+  />
+</FormControl>
+`;

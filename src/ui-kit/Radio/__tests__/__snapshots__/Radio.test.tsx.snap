@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio component should render correctly 1`] = `
+<styled.div>
+  <styled.input
+    checked={false}
+    onChange={[MockFunction]}
+    type="radio"
+    value="Value"
+  />
+  <Label
+    color="secondary"
+    onClick={[Function]}
+    uppercase={false}
+  >
+    Label
+  </Label>
+</styled.div>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon component should render correctly 1`] = `
+<styled.img
+  alt="Icon"
+  height={10}
+  src="/icons/arrow.svg"
+  width={10}
+/>
+`;

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormDate component should render correctly 1`] = `
+<FormControl
+  label="Label"
+  required={false}
+>
+  <styled.div>
+    <Input
+      min="2019-05-28"
+      onChange={[MockFunction]}
+      placeholder="Placeholder"
+      type="date"
+      value=""
+      width={180}
+    />
+    <styled.div>
+      <Label
+        color="secondary"
+        uppercase={false}
+      >
+        Tip
+      </Label>
+    </styled.div>
+    <Input
+      max="12:00"
+      min="00:00"
+      onChange={[MockFunction]}
+      placeholder="Placeholder"
+      type="time"
+      value=""
+      width={100}
+    />
+    <styled.div>
+      <Radio
+        checked={false}
+        label="AM"
+        onChange={[MockFunction]}
+        value="am"
+      />
+      <Radio
+        checked={false}
+        label="PM"
+        onChange={[MockFunction]}
+        value="pm"
+      />
+    </styled.div>
+  </styled.div>
+</FormControl>
+`;

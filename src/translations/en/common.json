@@ -1,0 +1,73 @@
+{
+  "general": {
+    "heading": "New event",
+    "maxLength": "Max length {{ number }} characters"
+  },
+  "errors": {
+    "empty": "{{ field }} cannot be empty",
+    "email": "{{ field }} should have proper email format"
+  },
+  "events": {
+    "free": "Free event",
+    "paid": "Paid event"
+  },
+  "alert": {
+    "primary": "Success",
+    "secondary": "Event has been created."
+  },
+  "form": {
+    "submit": "Publish event",
+    "about": {
+      "heading": "About",
+      "title": {
+        "label": "Title",
+        "placeholder": "Make it short and clear"
+      },
+      "description": {
+        "label": "Description",
+        "placeholder": "Write about your event, be creative"
+      },
+      "category": {
+        "label": "Category",
+        "placeholder": "Select category",
+        "hint": "Describes topic and people who should be interested in this event"
+      },
+      "payment": {
+        "label": "Payment",
+        "paid": {
+          "placeholder": "Fee",
+          "tip": "$"
+        }
+      },
+      "reward": {
+        "label": "Reward",
+        "placeholder": "Number",
+        "tip": "reward points for attendance"
+      }
+    },
+    "coordinator": {
+      "heading": "Coordinator",
+      "coordinator": {
+        "label": "Responsible",
+        "placeholder": "Select responsible"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Email"
+      }
+    },
+    "when": {
+      "heading": "When",
+      "startsOn": {
+        "label": "Starts on",
+        "placeholder": "dd/mm/yyyy",
+        "tip": "at"
+      },
+      "duration": {
+        "label": "Duration",
+        "placeholder": "Number",
+        "tip": "hour"
+      }
+    }
+  }
+}

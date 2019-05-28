@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormSelect component should render correctly 1`] = `
+<FormControl
+  label="Label"
+  required={false}
+>
+  <CustomSelect
+    onChange={[MockFunction]}
+    options={
+      Array [
+        Object {
+          "label": "Chocolate",
+          "value": "chocolate",
+        },
+        Object {
+          "label": "Strawberry",
+          "value": "strawberry",
+        },
+        Object {
+          "label": "Vanilla",
+          "value": "vanilla",
+        },
+      ]
+    }
+    placeholder="Placeholder"
+    value={
+      Object {
+        "label": "Chocolate",
+        "value": "chocolate",
+      }
+    }
+  />
+</FormControl>
+`;

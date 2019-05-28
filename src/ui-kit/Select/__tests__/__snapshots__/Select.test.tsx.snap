@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component should render correctly 1`] = `
+<StateManager
+  components={
+    Object {
+      "DropdownIndicator": [Function],
+    }
+  }
+  defaultInputValue=""
+  defaultMenuIsOpen={false}
+  defaultValue={null}
+  onChange={[MockFunction]}
+  options={
+    Array [
+      Object {
+        "label": "Chocolate",
+        "value": "chocolate",
+      },
+      Object {
+        "label": "Strawberry",
+        "value": "strawberry",
+      },
+      Object {
+        "label": "Vanilla",
+        "value": "vanilla",
+      },
+    ]
+  }
+  placeholder="Placeholder"
+  styles={
+    Object {
+      "control": [Function],
+      "indicatorSeparator": [Function],
+      "input": [Function],
+      "placeholder": [Function],
+    }
+  }
+  theme={[Function]}
+  value={
+    Object {
+      "label": "Chocolate",
+      "value": "chocolate",
+    }
+  }
+/>
+`;

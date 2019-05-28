@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormNumber component should render correctly 1`] = `
+<FormControl
+  label="Label"
+  required={false}
+>
+  <styled.div>
+    <Input
+      onChange={[MockFunction]}
+      placeholder="Placeholder"
+      type="number"
+      value=""
+      width={90}
+    />
+    <styled.div>
+      <Label
+        color="secondary"
+        uppercase={false}
+      >
+        Tip
+      </Label>
+    </styled.div>
+  </styled.div>
+</FormControl>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea component should render correctly 1`] = `
+<styled.textarea
+  onChange={[MockFunction]}
+  placeholder="Placeholder"
+  rows={10}
+  value=""
+/>
+`;

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter component should render correctly 1`] = `
+<styled.div>
+  <Hint>
+    general.maxLength
+  </Hint>
+  <Hint>
+    0
+     / 
+    100
+  </Hint>
+</styled.div>
+`;

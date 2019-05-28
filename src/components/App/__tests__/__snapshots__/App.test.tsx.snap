@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App with Enzyme and Jest should render correctly 1`] = `
+<styled.div>
+  <GlobalStyleComponent />
+  <Header>
+    <Container />
+  </Header>
+  <Container>
+    <styled.div>
+      <form
+        onSubmit={[Function]}
+      >
+        <Card>
+          <Title />
+          <FormInput
+            error=""
+            onChange={[Function]}
+            required={true}
+            value=""
+          />
+          <FormTextarea
+            error=""
+            maxLength={140}
+            onChange={[Function]}
+            required={true}
+            value=""
+          />
+          <FormSelect
+            hint={<Hint />}
+            onChange={[Function]}
+            options={Array []}
+            required={false}
+          />
+          <FormRadio
+            onChange={[Function]}
+            options={
+              Array [
+                Object {
+                  "label": <Trans
+                    i18nKey="events.free"
+                  />,
+                  "value": "free",
+                },
+                Object {
+                  "label": <Trans
+                    i18nKey="events.paid"
+                  />,
+                  "value": "paid",
+                },
+              ]
+            }
+            required={false}
+            value="paid"
+          />
+          <FormNumber
+            error=""
+            onChange={[Function]}
+            required={false}
+            value=""
+          />
+          <FormNumber
+            onChange={[Function]}
+            required={false}
+            value=""
+          />
+        </Card>
+        <Card>
+          <Title />
+          <FormSelect
+            error=""
+            onChange={[Function]}
+            options={Array []}
+            required={true}
+          />
+          <FormInput
+            error=""
+            onChange={[Function]}
+            required={false}
+            value=""
+          />
+        </Card>
+        <Card>
+          <Title />
+          <FormDate
+            dateValue=""
+            error=""
+            onDateChange={[Function]}
+            onTimeChange={[Function]}
+            onTimeTypeChange={[Function]}
+            required={true}
+            timeTypeValue="am"
+            timeValue=""
+          />
+          <FormNumber
+            onChange={[Function]}
+            required={false}
+            value=""
+          />
+        </Card>
+        <styled.div>
+          <Button
+            disabled={true}
+          />
+        </styled.div>
+      </form>
+    </styled.div>
+  </Container>
+</styled.div>
+`;

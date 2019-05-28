@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormControl component should render correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <Label
+      color="primary"
+      uppercase={true}
+    >
+      Label
+    </Label>
+  </styled.div>
+  <styled.div>
+    <Component
+      error={false}
+      key=".0"
+    />
+  </styled.div>
+  <styled.div />
+</styled.div>
+`;

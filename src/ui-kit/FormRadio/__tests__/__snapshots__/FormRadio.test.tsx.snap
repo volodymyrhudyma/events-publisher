@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormRadio component should render correctly 1`] = `
+<FormControl
+  label="Label"
+  required={false}
+>
+  <styled.div>
+    <Radio
+      checked={false}
+      key="free"
+      label="Free event"
+      onChange={[MockFunction]}
+      value="free"
+    />
+    <Radio
+      checked={false}
+      key="paid"
+      label="Paid event"
+      onChange={[MockFunction]}
+      value="paid"
+    />
+  </styled.div>
+</FormControl>
+`;

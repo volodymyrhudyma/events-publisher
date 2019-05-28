@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should render correctly 1`] = `
+<styled.input
+  onChange={[MockFunction]}
+  placeholder="Placeholder"
+  type="text"
+  value=""
+/>
+`;
