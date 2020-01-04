@@ -25,7 +25,6 @@ import { parseToNumber } from 'src/utils/number';
 import { defaultSchema } from 'src/utils/schema/default';
 import { validate } from 'src/utils/validate';
 import { ButtonWrapper, InnerWrapper, Wrapper } from './styled/App.styled';
-import CustomSelect from 'src/ui-kit/CustomSelect';
 
 interface IAppProps extends WithTranslation {
   fetchCategories: () => void;
